@@ -112,6 +112,20 @@
           trim
         />
       </b-form-group>
+      <b-form-group
+        v-if="finding.vulnerability.cvssV4Vector"
+        id="cvssV4VectorFieldset"
+        :label="this.$t('message.cvss_v4_vector')"
+        label-for="cvssV4VectorField"
+      >
+        <b-form-input
+          id="cvssV4VectorField"
+          :value="finding.vulnerability.cvssV4Vector"
+          class="form-control disabled"
+          readonly
+          trim
+        />
+      </b-form-group>
     </b-col>
     <b-col sm="6">
       <b-form-group
