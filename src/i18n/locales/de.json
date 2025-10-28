@@ -504,6 +504,8 @@
     "cvss_v2_vector": "CVSSv2-Vektor",
     "cvss_v3": "CVSSv3",
     "cvss_v3_vector": "CVSSv3-Vektor",
+    "cvss_v4": "CVSSv4",
+    "cvss_v4_vector": "CVSSv4-Vektor",
     "cwe": "CWE",
     "cwe_full": "Gemeinsame Schwachstellenaufzählung (CWE)",
     "cwe_id": "CWE-ID",

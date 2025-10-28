@@ -504,6 +504,8 @@
     "cvss_v2_vector": "CVSSv2 ベクター",
     "cvss_v3": "CVSSv3",
     "cvss_v3_vector": "CVSSv3 ベクター",
+    "cvss_v4": "CVSSv4",
+    "cvss_v4_vector": "CVSSv4 ベクター",
     "cwe": "CWE",
     "cwe_full": "共通脆弱性一覧 (CWE)",
     "cwe_id": "CWEID",

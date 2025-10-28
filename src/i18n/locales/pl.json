@@ -504,6 +504,8 @@
     "cvss_v2_vector": "Wektor CVSSv2",
     "cvss_v3": "CVSSv3",
     "cvss_v3_vector": "Wektor CVSSv3",
+    "cvss_v4": "CVSSv4",
+    "cvss_v4_vector": "Wektor CVSSv4",
     "cwe": "CWE",
     "cwe_full": "Wyliczenie typowych słabych stron (CWE)",
     "cwe_id": "Identyfikator CWE",

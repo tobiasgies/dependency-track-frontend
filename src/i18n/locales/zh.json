@@ -504,6 +504,8 @@
     "cvss_v2_vector": "CVSSv2 向量",
     "cvss_v3": "CVSSv3",
     "cvss_v3_vector": "CVSSv3 向量",
+    "cvss_v4": "CVSSv4",
+    "cvss_v4_vector": "CVSSv4 向量",
     "cwe": "CWE",
     "cwe_full": "CWE 全称",
     "cwe_id": "CEW Id",

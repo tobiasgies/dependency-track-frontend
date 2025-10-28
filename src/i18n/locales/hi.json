@@ -504,6 +504,8 @@
     "cvss_v2_vector": "CVSSv2 वेक्टर",
     "cvss_v3": "सीवीएससवी3",
     "cvss_v3_vector": "CVSSv3 वेक्टर",
+    "cvss_v4": "सीवीएससवी4",
+    "cvss_v4_vector": "CVSSv4 वेक्टर",
     "cwe": "सीडब्ल्यूई",
     "cwe_full": "सामान्य कमज़ोरी गणना (CWE)",
     "cwe_id": "सीडब्ल्यूई आईडी",

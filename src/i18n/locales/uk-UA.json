@@ -504,6 +504,8 @@
     "cvss_v2_vector": "Вектор CVSSv2",
     "cvss_v3": "CVSSv3",
     "cvss_v3_vector": "Вектор CVSSv3",
+    "cvss_v4": "CVSSv4",
+    "cvss_v4_vector": "Вектор CVSSv4",
     "cwe": "CWE",
     "cwe_full": "Загальна перелік слабкостей (CWE)",
     "cwe_id": "ID CWE",
