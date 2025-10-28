@@ -10,6 +10,15 @@ export default {
     height: Number,
   },
   methods: {
+    selectCvssScore: function (vulnerability) {
+      if (vulnerability.cvssV4BaseScore) {
+        return vulnerability.cvssV4BaseScore;
+      } else if (vulnerability.cvssV3BaseScore) {
+        return vulnerability.cvssV3BaseScore;
+      } else {
+        return vulnerability.cvssV2BaseScore;
+      }
+    },
     render: function (findings) {
       let labels = [];
       let cveData = [];
@@ -25,9 +34,7 @@ export default {
             vulnId: finding.vulnerability.vulnId,
             componentLabel: componentLabel,
           });
-          let cvssScore = finding.vulnerability.cvssV3BaseScore
-            ? finding.vulnerability.cvssV3BaseScore
-            : finding.vulnerability.cvssV2BaseScore;
+          let cvssScore = this.selectCvssScore(finding.vulnerability);
           cveData.push({ x: cvssScore, y: finding.vulnerability.epssScore });
         }
       }
